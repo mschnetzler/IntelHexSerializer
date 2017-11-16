@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{019569B1-9DC2-4834-AD9A-F40EA11613D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{123CB185-FC4D-4D46-BA4E-F3F7FA5F8387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{1568CDA2-9F47-420E-828A-0823F423FF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelHexSerializer", "Source\IntelHexSerializer\IntelHexSerializer.csproj", "{FFB00BB9-0895-4CFE-9E9D-198AF59824BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelHexSerializerTest", "Tests\IntelHexSerializerTest\IntelHexSerializerTest.csproj", "{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB00BB9-0895-4CFE-9E9D-198AF59824BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB00BB9-0895-4CFE-9E9D-198AF59824BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB00BB9-0895-4CFE-9E9D-198AF59824BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB00BB9-0895-4CFE-9E9D-198AF59824BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFB00BB9-0895-4CFE-9E9D-198AF59824BB} = {123CB185-FC4D-4D46-BA4E-F3F7FA5F8387}
+		{CBBDF17A-A3BB-495A-BE82-5A240D20CB9C} = {019569B1-9DC2-4834-AD9A-F40EA11613D8}
+	EndGlobalSection
+EndGlobal
