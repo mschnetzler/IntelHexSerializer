@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>IntelHexSerializer</id>
     <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <title>Intelhex to binary serializer/deserializer</title>
+    <authors>Griesser Electronic AG</authors>
+    <owners>Griesser Electronic AG</owners>
+    <licenseUrl>https://github.com/mschnetzler/IntelHexSerializer/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/mschnetzler/IntelHexSerializer</projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Yet another Intel-Hex-File to Binary Serializer/Deserializer</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>implemented serializer/deserializer</releaseNotes>
     <copyright>Copyright Griesser Electronic AG 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Intelhex</tags>
   </metadata>
 </package>

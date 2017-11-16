@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IntelHexSerializer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("yet another Intelhex file serializer/deserializer")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Griesser AG")]
+[assembly: AssemblyCompany("Griesser Electronic AG")]
 [assembly: AssemblyProduct("IntelHexSerializer")]
-[assembly: AssemblyCopyright("Copyright © Griesser AG 2017")]
+[assembly: AssemblyCopyright("Copyright © Griesser Electronic AG 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
